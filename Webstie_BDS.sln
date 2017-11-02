@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webstie_BDS", "Webstie_BDS\Webstie_BDS.csproj", "{EF90FC8B-8A72-4402-8587-BCA89243D683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webstie_BDS.Tests", "Webstie_BDS.Tests\Webstie_BDS.Tests.csproj", "{7FFDC108-AEA8-44A9-9DF5-E051480D230E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF90FC8B-8A72-4402-8587-BCA89243D683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF90FC8B-8A72-4402-8587-BCA89243D683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF90FC8B-8A72-4402-8587-BCA89243D683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF90FC8B-8A72-4402-8587-BCA89243D683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFDC108-AEA8-44A9-9DF5-E051480D230E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFDC108-AEA8-44A9-9DF5-E051480D230E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFDC108-AEA8-44A9-9DF5-E051480D230E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFDC108-AEA8-44A9-9DF5-E051480D230E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F88D3C5A-40E8-4410-B8E3-A1E2C44C50C1}
+	EndGlobalSection
+EndGlobal
