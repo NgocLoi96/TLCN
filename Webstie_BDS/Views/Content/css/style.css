@@ -1,0 +1,372 @@
+/*
+Theme Name: Engel Group
+Description: 
+Version: 1.0
+Author: Reggie Nicolay
+Author URI: http://www.dev55.com
+Template: enfold
+*/
+
+
+/******Homepage******/
+
+
+.home .main_color input[type='submit'] {
+	background-color: #ffffff;
+	color: #333333;
+}
+#IDX-quicksearch-15494 label {
+	margin: 0px;
+	color: #ffffff;
+}
+.avia-caption-title {
+	text-align: center;
+	font-size: 45px;
+}
+div .slideshow_caption h2 {
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.avia-caption-title {
+	font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+.home .caption_bottom .slideshow_caption .slideshow_inner_caption .slideshow_align_caption {
+	padding: 53px 0;
+	display: block;
+}
+#footer .names {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.page-id-9 .blog-categories {display:none;}
+.page-id-9  .slide-entry-title {
+    font-size: 1em !important;}
+}
+/******IDX Width Fix******/
+#top .fullsize .template-blog .post .entry-content-wrapper > * {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#IDX-mapContainer {
+    width: 100%;
+    min-width: 400px;
+}
+
+.single-idx-wrapper input[type="text"] { width: 100% !important;}
+
+#IDX-description {padding: 18px 18px 18px 0px !important;}
+
+.ws-form {display:none;}
+
+/******Email Updates - IDX******/
+.IDX-emailUpdateSignupText {
+.border-radius: 10px 10px 10px 10px;
+	-webkit-box-shadow: 0 0 3px #999999;
+	box-shadow: none;
+	color: rgb(7, 7, 7);
+	font-size: 27px;
+	margin: 20px 0;
+	padding: 10px;
+	border: none;
+}
+#IDX-ccz-zipcode, #IDX-ccz-city {
+	display: none;
+}
+/******Registration - IDX******/
+.IDX-control-group, #IDX-registration .IDX-control-group {
+	display: inline-block;
+	margin: 0 10px 0px 0;
+	width: 100%;
+}
+#IDX-registration {
+	max-height: 400px;
+	overflow-y: visible;
+}
+/******IDX******/
+.IDX-refinementSearchRight {
+	margin-left: 75px;
+}
+#IDX-resultsRefineSubmit {
+	margin-top: 12px;
+}
+#IDX-scheduleShowing {
+	color: #fff;
+}
+#IDX-description {
+	font-size: 18px;
+	line-height: 22px;
+	padding: 18px;
+}
+#IDX-detailsPrice {
+color: #9e6c79;
+}
+#tile-container {
+	width: 100%;
+}
+.onsale {
+	z-index: 10;
+	color: #FFF;
+	background: None;
+	border-radius: 60px;
+	width: 60px;
+	height: 60px;
+}
+.home .slide-meta, .inner_sidebar .news-time {
+	display: none;
+}
+/******Widgets******/
+
+#idx6200_16192-3 .widgettitle, #idx6200_16199-3 .widgettitle {
+	display: none;
+}
+/******Footer******/
+
+#footer .first {
+	font-size: 15px;
+}
+#text-5 .social_bookmarks li {
+clear: none!important;
+}
+
+.home .IDX-qsTextInput {
+width: 90px !Important;
+}
+
+.IDX-qsTextInput, #top input {
+width: 100%;
+}
+@media only screen and (min-width: 989px) and (max-width: 1140px) {
+#IDX-quicksearch-15494 {
+	border-radius: 0px;
+	width: 100%;
+	margin: -5px 0 0 -25px;
+}
+#IDX-qsMinBathWrap-15494 input[type="text"], #IDX-qsMinBedWrap-15494 input[type="text"] {
+	width: 30px;
+}
+#IDX-qsMinPriceWrap-15494 input[type="text"], #IDX-qsMaxPriceWrap-15494 input[type="text"] {
+	width: 70px;
+}
+.page-id-3164 #av_section_1 {
+	max-height: 205px;
+}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 989px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+#IDX-quicksearch-15494 {
+	border-radius: 0px;
+	width: 628px;
+	margin: -35px 0 0 -55px;
+}
+#IDX-quicksearch-15494 {
+	text-align: left;
+}
+#IDX-qsMinBathWrap-15494 input[type="text"], #IDX-qsMinBedWrap-15494 input[type="text"] {
+	width: 30px;
+}
+#IDX-qsMinPriceWrap-15494 input[type="text"], #IDX-qsMaxPriceWrap-15494 input[type="text"] {
+	width: 70px;
+}
+.slideshow_caption h2 {
+	background: #000;
+	filter: alpha(opacity = 60);
+	background: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	padding: 8px 8px;
+}
+.page-id-3164 #av_section_1 {
+	max-height: 205px;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#IDX-quicksearch-15494 {
+	border-radius: 0px;
+	width: 534px;
+	margin: -35px 0 0 -30px;
+}
+#IDX-qsMinPrice-15494 {
+	width: 75px;
+}
+#IDX-qsMinBedWrap-15494 {
+}
+#IDX-qsMinBed-15494 input[type='text'] {
+	width: 40px;
+}
+#IDX-qsMinBathWrap-15494 input[type="text"], #IDX-qsMinBedWrap-15494 input[type="text"] {
+	width: 50px;
+}
+.IDX-column1, .IDX-column2, .IDX-column3, .IDX-column4 {
+	width: 100%;
+	margin-left: 0;
+	padding-top: 5px;
+}
+.IDX-column4 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.IDX-resultsDetailsLink {
+	padding-bottom: 30px;
+}
+.IDX-detailsMLSCourtesy {
+	float: left;
+}
+.IDX-refinementSearchRight {
+	margin-left: 0px;
+}
+div.slideshow_caption h2 {
+	background: #000;
+	filter: alpha(opacity = 60)!Important;
+	background: rgba(0, 0, 0, 0.5)!Important;
+	display: inline-block;
+	font-size: 30px;
+	padding: 8px 8px;
+}
+.page-id-3164 #av_section_1 {
+	max-height: 225px;
+}
+#IDX-showcaseGallery-16192 .IDX-showcasePhoto, #IDX-showcaseGallery-16199 .IDX-showcasePhoto {
+	max-width: 120% !important;
+	max-height: none!important;
+	padding-left: 25px;
+}
+#IDX-showcaseGallery-16192 .IDX-showcaseCell div, #IDX-showcaseGallery-16199 .IDX-showcaseCell div {
+	text-align: center;
+	font-size: 14px!important;
+	line-height: 20px!important;
+	width: 100%!important;
+	padding-top: 5px;
+}
+#IDX-showcaseGallery-16192 .IDX-showcaseCell, #IDX-showcaseGallery-16199 .IDX-showcaseCell {
+	width: 300px!important;
+}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+#IDX-quicksearch-15494 {
+	border-radius: 0px;
+	width: 416px;
+	margin: -32px 0 0 -92px;
+}
+#av_section_1 {
+	max-height: 216px;
+}
+.home .caption_bottom .slideshow_caption .slideshow_inner_caption .slideshow_align_caption {
+	padding: 10px 0;
+	display: block;
+}
+.avia-caption-title {
+	font-family: 'Lato', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+#IDX-qsMinBathWrap-15494 input[type="text"], #IDX-qsMinBedWrap-15494 input[type="text"] {
+	width: 50px;
+}
+#IDX-qsMinPriceWrap-15494 input[type="text"], #IDX-qsMaxPriceWrap-15494 input[type="text"] {
+	width: 70px;
+}
+#IDX-quicksearchForm-15494 .IDX-qsSelectInput {
+	width: 150px!Important;
+}
+.IDX-column1, .IDX-column2, .IDX-column3, .IDX-column4 {
+	width: 100%;
+	margin-left: 0;
+	padding-top: 5px;
+}
+.IDX-column4 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.IDX-resultsDetailsLink {
+	padding-bottom: 30px;
+}
+#IDX-showcaseGallery-16192 .IDX-showcasePhoto, #IDX-showcaseGallery-16199 .IDX-showcasePhoto {
+	max-width: 114% !important;
+	max-height: none!important;
+	margin-left: -15px
+}
+#IDX-showcaseGallery-16192 .IDX-showcaseCell div, #IDX-showcaseGallery-16199 .IDX-showcaseCell div {
+	text-align: center;
+	font-size: 14px!important;
+	line-height: 20px!important;
+	width: 100%!important;
+	padding-top: 5px;
+}
+#IDX-showcaseGallery-16192 .IDX-showcaseCell, #IDX-showcaseGallery-16199 .IDX-showcaseCell {
+	width: 250px!important;
+}
+.IDX-detailsMLSCourtesy {
+	float: left;
+}
+#IDX-resultMap {
+	display: none;
+}
+.IDX-refinementSearchRight {
+	margin-left: 0px;
+}
+#IDX-description, #IDX-detailsFeatured, #IDX-photoListing, #IDX-detailsAddress, #IDX-detailsField-listingPrice, .IDX-fieldTwoColumn .IDX-fieldContainerList {
+	width: 100%;
+}
+.IDX-fieldTwoColumn .IDX-fieldContainerList {
+	font-size: 15px;
+	line-height: 19px;
+}
+#IDX-walkscoreContainer {
+	display: none;
+}
+#IDX-detailsLinkNew {
+	left: 0px;
+	top: 0;
+}
+#IDX-detailsTopLinks {
+	float: right;
+	position: relative;
+	width: 100%;
+}
+#IDX-nextLastButtons {
+float: left;
+width: 100%;
+}
+#IDX-hotLinks {
+margin: 23px 0 0 0;
+}
+#IDX-detailsLinkModify {
+left: 0px;
+}
+
+#IDX-hotLinks .IDX-saveProperty, #IDX-hotLinks .IDX-propertySaved, #IDX-hotLinks #IDX-moreInfo, #IDX-hotLinks #IDX-contactAgent {
+margin-right: 10px;
+line-height: 23px;
+}
+div.slideshow_caption h2 {
+	background: #000;
+	filter: alpha(opacity = 60)!Important;
+	background: rgba(0, 0, 0, 0.5)!Important;
+	display: inline-block;
+	padding: 8px 8px;
+}
+.page-id-3164 #av_section_1 {
+	max-height: 325px;
+}
+#IDX-cczContainer, #IDX-coreFields {
+	width: 100%!Important;
+}
+#footer .names {
+	font-size: 13px;
+	line-height: 20px;
+}
+}
